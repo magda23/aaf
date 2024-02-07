@@ -1,0 +1,296 @@
+@media(min-width: 1600px) {
+    .container {
+        max-width: 1640px;
+    }
+}
+
+@media(max-width: 1600px) {
+    .search_form {
+        width: 300px;
+    }
+
+    .select_block {
+        padding: 50px 10px 30px;
+    }
+
+    .box_ {
+        font-size: 18px;
+    }
+
+    .big_box {
+        font-size: 30px;
+    }
+
+    .icon_ img {
+        width: 28px;
+    }
+
+}
+
+@media(max-width: 1599px) {
+
+    .contact_block,
+    .contact_us,
+    .search_address,
+    .question_items,
+    .answer_block {
+        width: 100%;
+    }
+
+    .contact_information {
+        flex-direction: column;
+    }
+
+    .contact_us {
+        margin-bottom: 20px;
+    }
+
+    .contact_box {
+        width: 32% !important;
+    }
+
+    .contact_box button,
+    .bootstrap-select {
+        width: 100% !important;
+    }
+
+    .contact_ {
+        flex-wrap: wrap;
+    }
+
+    .contact_info {
+        margin-bottom: 15px;
+    }
+
+    .question_area {
+        width: 100%;
+        padding: 30px 40px 40px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .choose_title {
+        position: initial;
+    }
+
+    .nav_section {
+        padding: 20px 0;
+    }
+
+    .nav_li {
+        color: #411C64;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .questions_block {
+        justify-content: flex-start;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+}
+
+@media(max-width: 991px) {
+    .header_ {
+        flex-direction: column;
+    }
+
+    .info_block,
+    .info_img_block {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .box_,
+    .img_box {
+        width: 48%;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .send_txt {
+        font-size: 24px;
+    }
+
+    .mobile_navigation {
+        top: 315px;
+    }
+
+    .search_form {
+        width: 250px;
+    }
+
+    .info_items {
+        padding: 20px;
+    }
+
+    .contact_section {
+        padding: 30px 0;
+    }
+
+    .text_block {
+        width: 100%;
+    }
+
+    .txt_title,
+    .modal_title {
+        font-size: 32px;
+    }
+
+    .button_,
+    .user_block {
+        position: initial !important;
+    }
+
+    .success_section {
+        padding: 50px 0;
+    }
+
+    .success_title {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .success_img {
+        margin-bottom: 20px;
+    }
+
+    .question_section {
+        padding: 30px 0;
+    }
+
+    .send_question_block,
+    .question_info_box,
+    .service_info,
+    .service_form,
+    .instruction_block {
+        width: 100%;
+    }
+
+    .question_input {
+        width: 48%;
+    }
+
+    .service_section {
+        padding: 40px 0;
+    }
+
+    .info_block {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .title_ {
+        font-size: 24px;
+    }
+
+    .box_ {
+        font-size: 16px;
+    }
+
+    .big_box {
+        font-size: 20px;
+    }
+
+    .contact_ {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .info_select_block {
+        flex-direction: column;
+    }
+
+    .contact_box {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .image_box {
+        height: 200px;
+    }
+
+    .txt_block p {
+        margin-bottom: 20px;
+    }
+
+    .manual_section {
+        padding: 30px 0;
+    }
+
+    .question_area {
+        padding: 20px;
+    }
+
+    .change_modal_body {
+        padding: 20px;
+    }
+
+    .signin_section {
+        padding: 40px 0;
+    }
+
+    .instruction_ul {
+        flex-direction: column;
+    }
+
+    .instruction_li {
+        margin-bottom: 15px;
+    }
+
+    .instruction_section {
+        padding: 30px 0;
+    }
+
+    .instruction_li:last-child {
+        margin-bottom: 0;
+    }
+
+    .instuction_title {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 575px) {
+    .search_form {
+        width: 200px;
+    }
+
+    .box_,
+    .img_box {
+        width: 100%;
+    }
+
+    .img_box {
+        height: 250px;
+    }
+
+    .img_box img {
+        object-fit: fill;
+        object-position: center;
+    }
+
+    .box_:last-child {
+        margin-bottom: 30px;
+    }
+
+
+
+    .txt_title,
+    .modal_title {
+        font-size: 20px;
+    }
+
+    .sign_input,
+    .sign_input input,
+    .register_input,
+    .register_input label,
+    .register_input input {
+        width: 100%;
+    }
+
+    .success_title {
+        font-size: 20px;
+    }
+}
